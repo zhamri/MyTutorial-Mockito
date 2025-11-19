@@ -1,6 +1,6 @@
 package my.zhamri;
 
-public interface GreetingRepository {
+public interface GreetingInterface {
     String getGreeting();
 }
 

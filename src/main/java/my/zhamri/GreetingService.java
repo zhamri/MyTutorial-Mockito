@@ -2,9 +2,9 @@ package my.zhamri;
 
 public class GreetingService {
 
-    private final GreetingRepository repo;
+    private final GreetingInterface repo;
 
-    public GreetingService(GreetingRepository repo) {
+    public GreetingService(GreetingInterface repo) {
         this.repo = repo;
     }
 

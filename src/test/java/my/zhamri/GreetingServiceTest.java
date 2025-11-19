@@ -12,7 +12,7 @@ class GreetingServiceTest {
     void testSayHello() {
 
         // 1️⃣ Create a mock object
-        GreetingRepository repo = Mockito.mock(GreetingRepository.class);
+        GreetingInterface repo = Mockito.mock(GreetingInterface.class);
 
         // 2️⃣ Define behavior (stub)
         when(repo.getGreeting()).thenReturn("Hello World!");

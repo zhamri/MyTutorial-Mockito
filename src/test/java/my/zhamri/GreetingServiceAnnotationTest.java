@@ -14,7 +14,7 @@ import static org.mockito.Mockito.verify;
 class GreetingServiceAnnotationTest {
 
     @Mock
-    private GreetingRepository repo;    // auto-mocked
+    private GreetingInterface repo;    // auto-mocked
 
     @InjectMocks
     private GreetingService service;    // repo injected automatically
